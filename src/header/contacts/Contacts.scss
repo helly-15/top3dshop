@@ -1,15 +1,6 @@
 .contacts{
-  background: #FED600;
-  height: 32px;
   display: flex;
-  font-family: Open Sans, sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 18px;
-  padding-top: 19px;
-  padding-left: 120px;
-  //align-items: center;
   &-phone{
     color: black;
     text-decoration: none;
@@ -22,7 +13,8 @@
 .customSelect {
   &-city {
     position: relative;
-
+    font-style: normal;
+    margin-left: 120px;
     &::before {
       content: "";
       width: 0;
@@ -59,4 +51,33 @@
 .contacts-wrapper{
   display: flex;
   justify-content: space-between;
+  background: #FED600;
+  height: 32px;
+  font-family: Open Sans, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  align-items: center;
+  & a{
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+  }
+}
+.connect{
+  display: flex;
+  &-director{
+    margin-left:37px;
+  }
+  &-email{
+    margin-left:37px;
+  }
+  &-phone{
+    margin-left:18px;
+    margin-right: 120px;
+  }
+  &-skype{
+    margin-left:18px;
+  }
 }
