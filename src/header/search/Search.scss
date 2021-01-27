@@ -1,0 +1,67 @@
+.search{
+  display: flex;
+  align-items: center;
+}
+.company-logo{
+  width: 64px;
+  margin-left: 120px;
+  &__text{
+    white-space: pre;
+    font-family: Open Sans, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    margin-left: 17px;
+    & span{
+      color: red;
+    }
+  }
+}
+.yandex-add{
+  margin-left: 32px;
+  width: 105px;
+  border-radius: 10px;
+}
+.search-field{
+  margin-left: 32px;
+  width: 521px;
+  &__place{
+    border-radius: 4px;
+  }
+  &__button{
+    width: 75px;
+    border-radius: 4px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #D2001C;
+    border: 2px solid red;
+    background: white;
+  }
+}
+.auth{
+  margin-left: 32px;
+  display: flex;
+  align-items: center;
+  &-pic{
+    width: 24px;
+  }
+  &-text{
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+.basket{
+  margin-left: 32px;
+  color: white;
+  background: #D2001C;
+  display: flex;
+  align-items: center;
+}
