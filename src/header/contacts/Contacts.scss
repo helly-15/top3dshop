@@ -1,0 +1,62 @@
+.contacts{
+  background: #FED600;
+  height: 32px;
+  display: flex;
+  font-family: Open Sans, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  padding-top: 19px;
+  padding-left: 120px;
+  //align-items: center;
+  &-phone{
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+}
+  &-time{
+    padding-left: 20px;
+  }
+}
+.customSelect {
+  &-city {
+    position: relative;
+
+    &::before {
+      content: "";
+      width: 0;
+      height: 0;
+      border: solid black;
+      border-width: 0 2px 2px 0;
+      display: inline-block;
+      padding: 2px;
+      transform: rotate(45deg);
+      position: absolute;
+      right: 0;
+      top: 5px;
+
+    }
+
+    & select {
+      appearance: none;
+      background-color: transparent;
+      border: none;
+      padding: 0 1em 0 0;
+      margin: 0;
+      width: 100%;
+      cursor: inherit;
+      font-family: Open Sans, sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 18px;
+
+    }
+  }
+
+}
+.contacts-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
