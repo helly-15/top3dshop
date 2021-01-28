@@ -10,7 +10,10 @@ function Search(){
             <img src={logo} alt={'site logo'} className='company-logo'/>
             <p className='company-logo__text' > Ваш эксперт<br/>
                 на рынке <span>3D</span>-техники</p>
-            <img src={yandex} alt={'site logo'} className='yandex-add'/>
+            <div className='yandex-add'>
+                <img src={yandex} alt={'site logo'} />
+            </div>
+
             <form action="#"  className='search-field'>
                 <input className='search-field__place' type="text" placeholder="Введите запрос, например, Formlabs Form 2" name="search"/>
                 <button className='search-field__button' type="submit">Найти</button>

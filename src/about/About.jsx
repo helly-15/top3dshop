@@ -1,5 +1,7 @@
 import './About.scss';
 import groupPhoto from '../assets/groupphoto.png'
+import History from "./history/History";
+import Video from "../footer/video/Video";
 function About(){
 
     return(
@@ -28,6 +30,7 @@ function About(){
                 </p>
 
             </section>
+            <History/>
         </main>
 
 
