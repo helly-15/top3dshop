@@ -15,7 +15,7 @@
     cursor: pointer;
     position: relative;
     font-style: normal;
-    margin-left: 120px;
+    //margin-left: 120px;
     &::before {
       content: "";
       width: 0;
@@ -60,6 +60,8 @@
   font-size: 13px;
   line-height: 18px;
   align-items: center;
+  padding-left: 120px;
+  padding-right: 120px;
   & a{
     color: black;
     text-decoration: none;
@@ -76,9 +78,22 @@
   }
   &-phone{
     margin-left:18px;
-    margin-right: 120px;
+    //margin-right: 120px;
   }
   &-skype{
     margin-left:18px;
+  }
+}
+@media (max-width: 1462px) {
+  .contacts-wrapper {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+}
+@media (max-width: 1300px) {
+  .contacts-wrapper{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
   }
 }

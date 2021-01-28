@@ -13,3 +13,16 @@
     cursor: pointer;
   }
 }
+@media (max-width: 1462px) {
+  .services{
+    padding-left: 1%;
+    padding-right: 1%;
+    justify-content: space-around;
+    margin-left: 0;
+  }
+}
+@media (max-width: 1300px) {
+  .services{
+    justify-content: space-evenly;
+  }
+}

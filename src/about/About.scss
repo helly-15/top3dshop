@@ -61,3 +61,16 @@
     }
   }
 }
+@media (max-width: 1300px) {
+  .about{
+    width: 100%;
+    &-img{
+      width: 100%;
+    }
+    &-description {
+      display: flex;
+      justify-content: space-around;
+    }
+    }
+
+}

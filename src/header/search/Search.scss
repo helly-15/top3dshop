@@ -2,10 +2,11 @@
   display: flex;
   align-items: center;
   padding-top: 16px;
+  padding-left: 120px;
 }
 .company-logo{
   width: 64px;
-  margin-left: 120px;
+
   &__text{
     white-space: pre;
     font-family: Open Sans, sans-serif;
@@ -25,8 +26,6 @@
   height: 60px;
   border-radius: 10px;
   box-shadow: 3px 3px 5px 1px #ccc;
-  //background: url("../../assets/yandex.png");
-  //background-size: contain;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -90,3 +89,28 @@
     padding-right: 8px;
   }
 }
+@media (max-width: 1462px) {
+  .search{
+    padding-left: 1%;
+    padding-right: 1%;
+    max-width: fit-content;
+  }
+}
+@media (max-width: 1300px) {
+  .search-field{
+    margin-left: 10px;
+    &__place{
+      width: 360px;
+    }
+  }
+  .search{
+    //padding-left: 50px;
+    //padding-right: 1%;
+    //max-width: fit-content;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+

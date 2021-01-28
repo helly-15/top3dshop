@@ -48,3 +48,19 @@
     }
   }
 }
+@media (max-width: 1462px) {
+  .devices{
+    padding-left: 1%;
+    padding-right: 1%;
+    justify-content: space-around;
+    margin-left: 0;
+  }
+}
+@media (max-width: 1300px) {
+.devices{
+  justify-content: center;
+  &-item{
+    margin: 0 5px;
+  }
+}
+}
