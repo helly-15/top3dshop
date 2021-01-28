@@ -97,3 +97,16 @@
     max-width: 100%;
   }
 }
+@media (max-width: 1150px) {
+  .contacts-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+  }
+  .contacts{
+    margin: 10px 0;
+    justify-content: space-between;
+    display: flex;
+  }
+}

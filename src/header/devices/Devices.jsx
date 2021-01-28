@@ -3,6 +3,12 @@ import './Devices.scss';
 function Devices(){
 
     return(
+        <div id='menuToggle2'>
+            <input type="checkbox" className='burger' />
+            <p className='burger'> Наши продукты</p>
+            <span className='burger'></span>
+            <span className='burger'></span>
+            <span className='burger'></span>
         <ul className="devices">
             <li className='devices-item'>
                     <select id="printer" name="printer">
@@ -65,7 +71,7 @@ function Devices(){
                     </select>
             </li>
         </ul>
-
+        </div>
 
     )
 }

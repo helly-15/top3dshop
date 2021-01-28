@@ -104,13 +104,20 @@
     }
   }
   .search{
-    //padding-left: 50px;
-    //padding-right: 1%;
-    //max-width: fit-content;
     margin: 0 auto;
     width: 100%;
     display: flex;
     justify-content: space-around;
   }
 }
-
+@media (max-width: 1150px) {
+  .company-logo{
+    margin-right: 10px;
+  }
+  .yandex-add{
+    display: none;
+  }
+  .company-logo__text{
+    display: none;
+  }
+}
