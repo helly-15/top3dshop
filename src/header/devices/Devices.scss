@@ -1,0 +1,50 @@
+.devices{
+  display: flex;
+  align-items: center;
+  padding: 0 124px;
+  height: 61px;
+  border-top: 1px solid lightgrey;
+  font-family: Open Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  justify-content: space-between;
+  margin-top: 22px;
+  &-item{
+    cursor: pointer;
+    position: relative;
+    font-style: normal;
+    height: 20px;
+    &::before {
+      content: "";
+      width: 0;
+      height: 0;
+      border: solid grey;
+      border-width: 0 2px 2px 0;
+      display: inline-block;
+      padding: 2px;
+      transform: rotate(45deg);
+      position: absolute;
+      right: 0;
+      top: 5px;
+
+    }
+
+    & select {
+      appearance: none;
+      background-color: transparent;
+      border: none;
+      padding: 0 1em 0 0;
+      margin: 0;
+      width: 100%;
+      cursor: inherit;
+      font-family: Open Sans, sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 18px;
+
+    }
+  }
+}

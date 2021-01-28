@@ -54,12 +54,14 @@
     color: #D2001C;
     border: 2px solid red;
     background: white;
+    cursor: pointer;
   }
 }
 .auth{
   margin-left: 32px;
   display: flex;
   align-items: center;
+  cursor: pointer;
   &-pic{
     width: 24px;
   }
@@ -73,6 +75,7 @@
   }
 }
 .basket{
+  cursor: pointer;
   margin-left: 32px;
   color: white;
   background: #D2001C;
