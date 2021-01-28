@@ -1,6 +1,6 @@
 import './Search.scss';
 import logo from '../../assets/logo.svg';
-import yandex from '../../assets/yandex.svg';
+import yandex from '../../assets/yandex.png';
 import enter from '../../assets/enter.svg';
 import basket from '../../assets/basket.svg';
 function Search(){

@@ -1,6 +1,7 @@
 .search{
   display: flex;
   align-items: center;
+  padding-top: 16px;
 }
 .company-logo{
   width: 64px;
@@ -21,16 +22,28 @@
 .yandex-add{
   margin-left: 32px;
   width: 105px;
+  height: 60px;
   border-radius: 10px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
 }
 .search-field{
   margin-left: 32px;
-  width: 521px;
+
   &__place{
     border-radius: 4px;
+    width: 521px;
+    height: 44px;
   }
   &__button{
     width: 75px;
+    height: 36px;
+    margin-left: -80px;
     border-radius: 4px;
     font-family: Open Sans, sans-serif;
     font-style: normal;
@@ -56,6 +69,7 @@
     font-weight: 600;
     font-size: 13px;
     line-height: 18px;
+    padding-left: 8px;
   }
 }
 .basket{
@@ -64,4 +78,13 @@
   background: #D2001C;
   display: flex;
   align-items: center;
+  width: 160px;
+  height: 36px;
+  border-radius: 5px;
+  border:none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  &-img{
+    padding-left: 16px;
+    padding-right: 8px;
+  }
 }
