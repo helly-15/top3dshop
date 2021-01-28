@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'SFProDisplay';
+  src: local('SFProDisplay'), url('../assets/fonts/SFPRO.ttf') format('ttf');
+}
+.about{
+  width: 1230px;
+  //padding-left: 154px;
+  &-img{
+    padding-top: 70px;
+  }
+  &-description{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    font-family: SFProDisplay, sans-serif;
+    font-style: normal;
+    &__job{
+      font-weight: normal;
+      font-size: 27px;
+      line-height: 32px;
+    }
+    &__button{
+      background: #D2001C;
+      color: white;
+      cursor: pointer;
+      margin-top: 40px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      align-items: center;
+      text-align: center;
+      letter-spacing: -0.7px;
+      width: 280px;
+      height:44px;
+    }
+    &__agreement{
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.7px;
+      color: #C4C4C4;
+      margin-top: 20px;
+    }
+    &__text{
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: justify;
+      letter-spacing: -0.7px;
+      width: 708px;
+      color: #4D4D4D;
+      & a{
+        color: red;
+      }
+    }
+  }
+}
