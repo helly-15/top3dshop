@@ -4,7 +4,6 @@
 }
 .about{
   width: 1230px;
-  //padding-left: 154px;
   &-img{
     padding-top: 70px;
   }
@@ -19,6 +18,7 @@
       font-size: 27px;
       line-height: 32px;
       font-family: SFProDisplay, sans-serif;
+
     }
     &__button{
       background: #D2001C;
@@ -72,5 +72,30 @@
       justify-content: space-around;
     }
     }
+
+}
+@media (max-width: 1150px) {
+  .about{
+    max-width: 100%;
+    &-description{
+      flex-direction: column;
+      align-items: center;
+      &__job{
+
+      }
+      &__text{
+        margin-top: 20px;
+      }
+      &__resume{
+        text-align: center;
+      }
+      &__agreement{
+        text-align: center;
+        align-content: center;
+        width: fit-content;
+        margin-left: 20%;
+      }
+    }
+  }
 
 }

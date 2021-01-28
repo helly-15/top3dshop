@@ -3,12 +3,16 @@ import './Devices.scss';
 function Devices(){
 
     return(
-        <div id='menuToggle2'>
-            <input type="checkbox" className='burger' />
-            <p className='burger'> Наши продукты</p>
-            <span className='burger'></span>
-            <span className='burger'></span>
-            <span className='burger'></span>
+        <>
+        <button className="accordion" onClick={(e)=>{
+            e.target.classList.toggle('active');
+            let panel = e.target.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = '500px';
+            }
+        }}>Наши продукты</button>
         <ul className="devices">
             <li className='devices-item'>
                     <select id="printer" name="printer">
@@ -71,8 +75,8 @@ function Devices(){
                     </select>
             </li>
         </ul>
-        </div>
 
+        </>
     )
 }
 export default Devices;

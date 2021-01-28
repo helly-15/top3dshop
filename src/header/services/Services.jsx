@@ -3,12 +3,17 @@ import './Services.scss';
 function Services(){
 
     return(
-        <div id='menuToggle'>
-            <input type="checkbox" className='burger' />
-            <p className='burger'> О нас</p>
-            <span className='burger'></span>
-            <span className='burger'></span>
-            <span className='burger'></span>
+
+<>
+        <button className="accordion" onClick={(e)=>{
+            e.target.classList.toggle('active');
+            let panel = e.target.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = "400px";
+            }
+        }}>Справочная информация</button>
             <ul className="services">
                 <li className='services-item'>Акции</li>
                 <li className='services-item'>О нас</li>
@@ -20,8 +25,8 @@ function Services(){
                 <li className='services-item'>Мастер класс</li>
                 <li className='services-item'>Контакты</li>
             </ul>
-        </div>
 
+</>
 
 
     )
