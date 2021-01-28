@@ -47,6 +47,9 @@
     & video{
       width: 550px;
       height: 306px;
+     &:nth-child(2){
+       padding-left: 70px;
+     }
     }
   }
 }
