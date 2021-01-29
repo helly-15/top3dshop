@@ -15,7 +15,6 @@
     cursor: pointer;
     position: relative;
     font-style: normal;
-    //margin-left: 120px;
     &::before {
       content: "";
       width: 0;
@@ -78,7 +77,6 @@
   }
   &-phone{
     margin-left:18px;
-    //margin-right: 120px;
   }
   &-skype{
     margin-left:18px;
@@ -127,7 +125,6 @@
   }
   .contacts-wrapper{
     flex-direction: row;
-
   }
 }
 

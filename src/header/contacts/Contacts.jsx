@@ -3,7 +3,6 @@ import email from '../../assets/email.svg';
 import skype from '../../assets/skype.svg';
 import phone from '../../assets/phone.svg'
 function Contacts(){
-
     return(
         <div className='contacts-wrapper'>
             <address className='contacts'>
@@ -42,9 +41,6 @@ function Contacts(){
                 </ul>
             </nav>
         </div>
-
-
-
     )
 }
 export default Contacts;

@@ -13,7 +13,6 @@ function Header(){
             <Services/>
             <Devices/>
         </header>
-
     )
 }
 export default Header;

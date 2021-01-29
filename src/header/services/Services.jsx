@@ -27,8 +27,6 @@ function Services(){
             </ul>
 
 </>
-
-
     )
 }
 export default Services;

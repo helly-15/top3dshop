@@ -1,7 +1,6 @@
 import './About.scss';
 import groupPhoto from '../assets/groupphoto.png'
 import History from "./history/History";
-import Video from "../footer/video/Video";
 function About(){
 
     return(
@@ -13,7 +12,6 @@ function About(){
                         Твоя работа<br/>
                         в крупнейшем интеграторе<br/>
                         цифрового производства
-
                     </p>
                     <button className="about-description__button">
                         Отправить резюме
@@ -32,8 +30,6 @@ function About(){
             </section>
             <History/>
         </main>
-
-
     )
 }
 export default About;

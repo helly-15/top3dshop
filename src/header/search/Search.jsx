@@ -23,7 +23,6 @@ function Search(){
                 <button className='search-field__button' type="submit">
                     <span className='search-field__button_text'> Найти </span>
                     <img src ={glass} alt ='search' className='search-field__button_glass'/>
-
                 </button>
             </form>
             <div className='auth'>
