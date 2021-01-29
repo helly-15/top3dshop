@@ -1,20 +1,24 @@
-.contacts{
+.contacts {
   display: flex;
   font-style: normal;
-  &-phone{
+
+  &-phone {
     color: black;
     text-decoration: none;
     padding-left: 20px;
-}
-  &-time{
+  }
+
+  &-time {
     padding-left: 20px;
   }
 }
+
 .customSelect {
   &-city {
     cursor: pointer;
     position: relative;
     font-style: normal;
+
     &::before {
       content: "";
       width: 0;
@@ -48,7 +52,8 @@
   }
 
 }
-.contacts-wrapper{
+
+.contacts-wrapper {
   display: flex;
   justify-content: space-between;
   background: #FED600;
@@ -61,69 +66,80 @@
   align-items: center;
   padding-left: 120px;
   padding-right: 120px;
-  & a{
+
+  & a {
     color: black;
     text-decoration: none;
     font-style: normal;
   }
 }
-.connect{
+
+.connect {
   display: flex;
-  &-director{
-    margin-left:37px;
+
+  &-director {
+    margin-left: 37px;
   }
-  &-email{
-    margin-left:37px;
+
+  &-email {
+    margin-left: 37px;
   }
-  &-phone{
-    margin-left:18px;
+
+  &-phone {
+    margin-left: 18px;
   }
-  &-skype{
-    margin-left:18px;
+
+  &-skype {
+    margin-left: 18px;
   }
 }
+
 @media (max-width: 1462px) {
   .contacts-wrapper {
     padding-left: 1%;
     padding-right: 1%;
   }
 }
+
 @media (max-width: 1300px) {
-  .contacts-wrapper{
+  .contacts-wrapper {
     display: flex;
     justify-content: space-around;
     max-width: 100%;
   }
 }
+
 @media (max-width: 1150px) {
-  .contacts-wrapper{
+  .contacts-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: auto;
   }
-  .contacts{
+  .contacts {
     margin: 10px 0;
     justify-content: space-between;
     display: flex;
   }
 }
+
 @media (max-width: 582px) {
-  .contacts-phone{
+  .contacts-phone {
     display: none;
   }
-  .contacts-time{
+  .contacts-time {
     display: none;
   }
-  .connect{
-    &-write{
+  .connect {
+    &-write {
       display: none;
     }
-    &-director{
+
+    &-director {
       display: none;
     }
   }
-  .contacts-wrapper{
+  .contacts-wrapper {
     flex-direction: row;
   }
 }

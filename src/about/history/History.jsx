@@ -1,9 +1,9 @@
 import './History.scss'
 
 
-function History(){
+function History() {
 
-    return(
+    return (
         <section className="history">
             <div className="history-header">
                 <p className="history-header__title">
@@ -31,4 +31,5 @@ function History(){
 
     )
 }
+
 export default History;

@@ -1,8 +1,9 @@
 import './Video.scss'
 import video1 from '../../assets/video1.png';
 import video2 from '../../assets/video2.png';
-function Video(){
-    return(
+
+function Video() {
+    return (
         <section className='video'>
             <div className="video-title">
                 <p className="video-title__text">
@@ -16,8 +17,8 @@ function Video(){
             <div className="video-wrapper">
                 <video controls poster={ video1 }>
                     <source src="#" type="video/mp4"/>
-                        <source src="#" type="video/ogg"/>
-                            Your browser does not support the video tag.
+                    <source src="#" type="video/ogg"/>
+                    Your browser does not support the video tag.
                 </video>
                 <video controls poster={ video2 }>
                     <source src="#" type="video/mp4"/>
@@ -28,4 +29,5 @@ function Video(){
         </section>
     )
 }
+
 export default Video;

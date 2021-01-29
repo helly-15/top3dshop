@@ -1,10 +1,12 @@
-.history{
+.history {
   padding-top: 30px;
-  font-family: SF Pro Text,sans-serif;
+  font-family: SF Pro Text, sans-serif;
   font-style: normal;
-  &-header{
+
+  &-header {
     display: flex;
-    &__title{
+
+    &__title {
       font-weight: 500;
       font-size: 24px;
       line-height: 29px;
@@ -13,7 +15,8 @@
       letter-spacing: -0.7px;
       color: #222222;
     }
-    &__line{
+
+    &__line {
       width: 916px;
       height: 1px;
       border-bottom: 1px solid gainsboro;
@@ -21,28 +24,33 @@
       margin-top: 17px;
     }
   }
-  &-links{
+
+  &-links {
     padding-top: 40px;
     display: flex;
     justify-content: space-around;
-    &:hover{
+
+    &:hover {
       color: #D2001C;
       border-color: #D2001C;
     }
-    &__link{
+
+    &__link {
       font-weight: normal;
       font-size: 16px;
       line-height: 19px;
       text-align: center;
       text-decoration-line: underline;
       color: #4D4D4D;
-      &:hover{
+
+      &:hover {
         color: #D2001C;
       }
     }
   }
 }
-.arrow-right{
+
+.arrow-right {
   margin-left: 15px;
   border: solid black;
   border-width: 0 1px 1px 0;
@@ -50,43 +58,51 @@
   padding: 3px;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
-  &:hover{
+
+  &:hover {
     color: #D2001C;
     border-color: #D2001C;
   }
 }
+
 @media (max-width: 1300px) {
-  .history{
+  .history {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    &-header{
+
+    &-header {
       justify-content: center;
-      &__line{
+
+      &__line {
         display: none;
       }
     }
 
   }
 }
+
 @media (max-width: 725px) {
-  .history{
+  .history {
     align-content: center;
     width: auto;
   }
 }
+
 @media (max-width: 528px) {
-.history-links{
-  display: flex;
-  flex-direction: column;
-  &__link{
-    padding-top: 10px;
+  .history-links {
+    display: flex;
+    flex-direction: column;
+
+    &__link {
+      padding-top: 10px;
+    }
   }
 }
-}
+
 @media (max-width: 450px) {
-  .history{
-   width: auto;
+  .history {
+    width: auto;
   }
 }

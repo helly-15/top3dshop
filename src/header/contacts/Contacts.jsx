@@ -2,8 +2,9 @@ import './Contacts.scss'
 import email from '../../assets/email.svg';
 import skype from '../../assets/skype.svg';
 import phone from '../../assets/phone.svg'
-function Contacts(){
-    return(
+
+function Contacts() {
+    return (
         <div className='contacts-wrapper'>
             <address className='contacts'>
                 <div className='customSelect-city'>
@@ -18,24 +19,24 @@ function Contacts(){
             <nav>
                 <ul className='connect'>
                     <li className='connect-write'>
-                        <a href = "mailto: abc@example.com" >Напишите нам</a>
+                        <a href="mailto: abc@example.com">Напишите нам</a>
                     </li>
                     <li className='connect-director'>
-                        <a href = "mailto: abc@example.com" >Свяжитесь с директором</a>
+                        <a href="mailto: abc@example.com">Свяжитесь с директором</a>
                     </li>
                     <li className='connect-email'>
-                        <a href = "mailto: abc@example.com">
-                            <img src ={email} alt ='write email'/>
+                        <a href="mailto: abc@example.com">
+                            <img src={ email } alt='write email'/>
                         </a>
                     </li>
                     <li className='connect-skype'>
                         <a href="skype:********?call">
-                            <img src ={skype} alt ='call Skype'/>
+                            <img src={ skype } alt='call Skype'/>
                         </a>
                     </li>
                     <li className='connect-phone'>
                         <a href="tel:+78126135838">
-                            <img src ={phone} alt ='call Skype'/>
+                            <img src={ phone } alt='call Skype'/>
                         </a>
                     </li>
                 </ul>
@@ -43,4 +44,5 @@ function Contacts(){
         </div>
     )
 }
+
 export default Contacts;

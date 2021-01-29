@@ -1,32 +1,36 @@
 @font-face {
-  font-family: 'SFProDisplay';
-  src: local('SFProDisplay'), url('./assets/fonts/SFProDisplay.woff') format('woff');
-  src: local('SFProDisplay'), url('./assets/fonts/SFPRO.woff2') format('woff2');
+    font-family: 'SFProDisplay';
+    src: local('SFProDisplay'), url('./assets/fonts/SFProDisplay.woff') format('woff');
+    src: local('SFProDisplay'), url('./assets/fonts/SFPRO.woff2') format('woff2');
 }
-body{
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-#root{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 12px;
-  padding-bottom: 105px;
-}
-@media (max-width: 1150px) {
-  body{
+
+body {
     box-sizing: border-box;
-    display: block;
+    display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  #root{
-    display: block;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
+    padding-top: 12px;
+    padding-bottom: 105px;
+}
+
+@media (max-width: 1150px) {
+    body {
+        box-sizing: border-box;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #root {
+        display: block;
+        align-items: center;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 }

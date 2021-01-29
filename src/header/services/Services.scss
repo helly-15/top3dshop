@@ -1,4 +1,4 @@
-.services{
+.services {
   display: flex;
   justify-content: space-between;
   padding-top: 13px;
@@ -9,31 +9,36 @@
   font-weight: normal;
   font-size: 13px;
   line-height: 18px;
-  &-item{
+
+  &-item {
     cursor: pointer;
   }
 }
-.accordion{
+
+.accordion {
   display: none;
 }
+
 @media (max-width: 1462px) {
-  .services{
+  .services {
     padding-left: 1%;
     padding-right: 1%;
     justify-content: space-around;
     margin-left: 0;
   }
 }
+
 @media (max-width: 1300px) {
-  .services{
+  .services {
     justify-content: space-evenly;
   }
 }
+
 @media (max-width: 1150px) {
-.accordion{
-  display: block;
-}
-  .services{
+  .accordion {
+    display: block;
+  }
+  .services {
     background-color: white;
     max-height: 0;
     overflow: auto;
@@ -42,9 +47,11 @@
     padding: 0;
     flex-direction: column;
     align-items: center;
-    &-item{
+
+    &-item {
       margin: 10px 10px;
-      &:hover{
+
+      &:hover {
         color: #D2001C;
       }
     }

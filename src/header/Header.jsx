@@ -4,9 +4,9 @@ import Search from "./search/Search";
 import Services from "./services/Services";
 import Devices from "./devices/Devices";
 
-function Header(){
+function Header() {
 
-    return(
+    return (
         <header className='header'>
             <Contacts/>
             <Search/>
@@ -15,4 +15,5 @@ function Header(){
         </header>
     )
 }
+
 export default Header;

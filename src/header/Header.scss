@@ -1,4 +1,4 @@
-.header{
+.header {
   width: 1440px;
   font-family: "Open Sans", serif;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -6,26 +6,29 @@
   0 12.5px 10px rgba(0, 0, 0, 0.06),
   0 22.3px 17.9px rgba(0, 0, 0, 0.072),
   0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 100px 80px rgba(0, 0, 0, 0.12)
-;
+  0 100px 80px rgba(0, 0, 0, 0.12);
 }
+
 @media (max-width: 1462px) {
-  .header{
+  .header {
     max-width: 1280px;
   }
 }
+
 @media (max-width: 1300px) {
-  .header{
+  .header {
     max-width: 1200px;
   }
 }
+
 @media (max-width: 1150px) {
-  .header{
+  .header {
     max-width: 100%;
   }
 }
+
 @media (max-width: 780px) {
-  .header{
+  .header {
     max-width: 100%;
   }
 }
