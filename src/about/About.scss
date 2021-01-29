@@ -1,7 +1,4 @@
-@font-face {
-  font-family: 'SFProDisplay';
-  src: local('SFProDisplay'), url('../assets/fonts/SFPRO.ttf') format('ttf');
-}
+
 .about{
   width: 1230px;
   &-img{
@@ -98,4 +95,14 @@
     }
   }
 
+}
+@media (max-width: 725px) {
+  .about-description__text{
+    width: 90%;
+  }
+}
+@media (max-width: 450px) {
+  .about-description__agreement{
+    margin: 0 auto;
+  }
 }

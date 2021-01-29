@@ -110,3 +110,24 @@
     display: flex;
   }
 }
+@media (max-width: 582px) {
+  .contacts-phone{
+    display: none;
+  }
+  .contacts-time{
+    display: none;
+  }
+  .connect{
+    &-write{
+      display: none;
+    }
+    &-director{
+      display: none;
+    }
+  }
+  .contacts-wrapper{
+    flex-direction: row;
+
+  }
+}
+

@@ -6,7 +6,9 @@
 }
 .company-logo{
   width: 64px;
-
+&__line{
+  display: none;
+}
   &__text{
     white-space: pre;
     font-family: Open Sans, sans-serif;
@@ -53,6 +55,9 @@
     border: 2px solid red;
     background: white;
     cursor: pointer;
+    &_glass{
+      display: none;
+    }
   }
 }
 .auth{
@@ -122,9 +127,6 @@
   }
 }
 @media (max-width: 780px) {
-  .search{
-
-  }
 .basket{
   position: fixed;
   top: 10px;
@@ -138,4 +140,76 @@
   }
 }
 
+}
+@media (max-width: 582px) {
+  .company-logo{
+    width: 40px;
+  }
+
+  .search-field {
+    display: flex;
+    &__place {
+      width: 230px;
+      height: 20px;
+    }
+    &__button{
+      width: 20px;
+      height: 20px;
+      margin-left:0px;
+      border: none;
+      background-color: transparent;
+    &_text{
+      display: none;
+    }
+      &_glass{
+        display: block;
+        width: 15px;
+        margin-top: 4px;
+      }
+    }
+  }
+}
+@media (max-width: 450px) {
+  .search{
+    flex-direction: column;
+    margin: 0 0;
+    padding: 0 0;
+    max-width: 98%;
+  }
+  .company-logo{
+    display: none;
+    &__line{
+      display: block;
+      width: 98%;
+      border: 10px solid black;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+  }
+  .auth-text{
+    display: none;
+  }
+  .auth-pic{
+    position: fixed;
+    top: 53px;
+    right:0;
+    width:35px;
+    background-color: #F9F9F9;
+    border-radius: 4px;
+  }
+  .search-field {
+    width: 99%;
+    margin-bottom: 10px;
+    &__place {
+      width: 99%;
+      height: 30px;
+    }
+    &__button{
+      &_glass{
+
+        width: 15px;
+        margin-top: 6px;
+      }
+    }
+  }
 }

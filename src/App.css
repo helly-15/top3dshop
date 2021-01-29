@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'SFProDisplay';
   src: local('SFProDisplay'), url('./assets/fonts/SFProDisplay.woff') format('woff');
+  src: local('SFProDisplay'), url('./assets/fonts/SFPRO.woff2') format('woff2');
 }
 body{
   box-sizing: border-box;

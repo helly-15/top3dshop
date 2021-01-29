@@ -70,3 +70,24 @@
 
   }
 }
+@media (max-width: 725px) {
+  .history{
+    width: 90%;
+    align-content: center;
+    width: auto;
+  }
+}
+@media (max-width: 528px) {
+.history-links{
+  display: flex;
+  flex-direction: column;
+  &__link{
+    padding-top: 10px;
+  }
+}
+}
+@media (max-width: 450px) {
+  .history{
+   width: auto;
+  }
+}
